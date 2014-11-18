@@ -12,7 +12,7 @@ This class generates Cisco Nexus hello, close and RPC NETCONF messages for wrapp
 Use this code to test:
 
 ```
-#Create a call1 object with message-id of '42'
+# Create a call1 object with message-id of '42'
 call1 = nxosNCRPC("42")
 call1.add_command("conf t")
 call1.add_command("int eth2/1")
