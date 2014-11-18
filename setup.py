@@ -13,10 +13,8 @@
 # limitations under the License.
 
 from setuptools import setup, find_packages
-from distutils.command.install import install as _install
 
 import sys
-import platform
 
 if not sys.version_info[0] == 2:
     print "Sorry, Python 3 is not supported (yet)"
