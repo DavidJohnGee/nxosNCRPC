@@ -5,6 +5,7 @@ Author:       David Gee, copyright (C) 2014, ipengineer.net
 Date:         17th of November 2014
 Version:      0.1
 Site:         http://ipengineer.net
+Notes:		  Absolutely no error handling exists. Wrap usage with try:/except: to catch problems!
 </pre>
 
 This class generates Cisco Nexus hello, close and RPC NETCONF messages for wrapping CLI commands.
