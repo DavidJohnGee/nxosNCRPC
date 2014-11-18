@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from setuptools import setup, find_packages
+from distutils.command.install import install as _install
 
 import sys
 
