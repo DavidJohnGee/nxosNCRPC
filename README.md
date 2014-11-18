@@ -1,16 +1,18 @@
 Python - nxosNCRPC Library 0.1
 ====================================
-
+<pre>
 Author:       David Gee, copyright (C) 2014, ipengineer.net
 Date:         17th of November 2014
 Version:      0.1
 Site:         http://ipengineer.net
+</pre>
 
 This class generates Cisco Nexus hello, close and RPC NETCONF messages for wrapping CLI commands.
 
 Use this code to test:
 
 ```
+#Create a call1 object with message-id of '42'
 call1 = nxosNCRPC("42")
 call1.add_command("conf t")
 call1.add_command("int eth2/1")
