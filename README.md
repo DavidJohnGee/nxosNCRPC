@@ -29,7 +29,7 @@ to a Cisco Nexus NETCONF subsystem try the below.
 Once you're logged in, copy and paste output generated like below. Once you're happy the code is functioning, you can
 then use something like Paramiko to programmatically send/receive data to and from NETCONF server.
 
-
+```
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
   <capabilities>
@@ -54,3 +54,4 @@ then use something like Paramiko to programmatically send/receive data to and fr
   <nc:close-session/>
 </nc:rpc>
 ]]>]]>
+```
